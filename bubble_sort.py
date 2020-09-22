@@ -3,7 +3,7 @@ import random
 def buble_sort(lista):
     n=len(lista)
     for i in range(n):
-        print(lista)
+        print(i+1,":",lista)
         cambios=False
         for j in range(0,n-i-1):
             if lista[j]>lista[j+1]:
