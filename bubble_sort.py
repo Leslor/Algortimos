@@ -1,5 +1,7 @@
 import random
-
+print("Algoritmo simple de ordenamiento que trabaja n\
+intercambiando repetidamente los elementos adyacentes si estan n\
+incorrecto ")
 def buble_sort(lista):
     n=len(lista)
     for i in range(n):
